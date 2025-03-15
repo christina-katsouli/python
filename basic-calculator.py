@@ -23,3 +23,5 @@ elif command.lower() == "power":
     result = num1 ** num2
 
 print(result)
+
+# Done!
