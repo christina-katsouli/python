@@ -10,5 +10,7 @@ if choice.lower() == "dog":
     years = years / 7
 elif choice.lower() == "human":
     years = years * 7
+else: print("Sorry I can't do that because you did not ask me to convert your years from dog or human. ")
 
 print("Your converted age is: " + str(int(years)))
+
