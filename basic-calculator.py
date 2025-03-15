@@ -21,6 +21,9 @@ elif command.lower() == "subtract":
     result = num1 - num2
 elif command.lower() == "power":
     result = num1 ** num2
+else:
+    print("Sorry I cannot do that, but I am working on a more advanced version of this calculator!")
+    exit()
 
 print(result)
 
